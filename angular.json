@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "BadmintonLeague:build:production"
+              "buildTarget": "BadmintonLeague:build:production"
             },
             "development": {
-              "browserTarget": "BadmintonLeague:build:development"
+              "buildTarget": "BadmintonLeague:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "BadmintonLeague:build"
+            "buildTarget": "BadmintonLeague:build"
           }
         },
         "test": {
